@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav>
+        <!-- logo -->
+        <div class="logo">
+          <a href="#">Portfolio</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificate">Certificates</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- dark- light mode -->
+        <button id="toggle-mode">☽</button>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1><span class="name">Hi, I'm </span>Amisha Sharma</h1>
+          <p>Full-Stack Web Developer</p>
+          <p>
+            I create responsive, user-friendly web applications with modern
+            technologies. Passionate about clean code and creative solutions to
+            complex problems.
+          </p>
+          <div class="social-icons">
+            <i class="fa-brands fa-instagram icon"></i>
+            <i class="fa-brands fa-linkedin icon"></i>
+            <i class="fa-brands fa-github icon"></i>
+            <i class="fa-brands fa-facebook icon"></i>
+          </div>
+          <a href="#" class="download-btn">Download Resume</a>
+        </div>
+        <div class="hero-image">
+          <figure>
+            <img
+              src="https://plus.unsplash.com/premium_photo-1739170099068-cb3963903f64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0ZWQlMjBwaWMlMjBvZiUyMGdpcmx8ZW58MHx8MHx8fDA%3D"
+              alt="image-profile"
+              class="profile-img"
+            />
+          </figure>
+        </div>
+      </div>
+    </main>
+    <!-- horizontal line -->
+    <hr class="line" />
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="about1">About Me</h2>
+        <div class="about-image">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1739170099068-cb3963903f64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWF0ZWQlMjBwaWMlMjBvZiUyMGdpcmx8ZW58MHx8MHx8fDA%3D"
+            alt="image-profile"
+            class="about-img"
+          />
+        </div>
+        <div class="about-text">
+          <h2 class="about2">About Me</h2>
+          <p>
+            Hello! I'm Amisha Sharma a passionate web developer with over 1
+            years of experience creating beautiful, functional websites and
+            applications. My journey in web development started during my
+            college years, and I've been hooked ever since.
+          </p>
+          <p>
+            I specialize in both front-end and back-end development, with
+            expertise in HTML, CSS, JavaScript, React, Node.js, and various
+            database technologies. I love solving complex problems and
+            transforming ideas into digital reality.
+          </p>
+          <a href="#" class="certificate-btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="line" />
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skills-heading">My Skills</h2>
+      <div class="skills-section">
+        <div class="skill-category">
+          <h3>Frontend Skills</h3>
+          <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>ReactJS</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Bootstrap</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Tailwind CSS</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend Skills</h3>
+          <div class="skill">
+            <span>Node.js</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Express.js</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>MongoDB</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>PostgreSQL</span>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="line" />
+
+    <!-- Certifications Section -->
+    <section id="certificate" class="projects-section">
+      <div class="container">
+        <h2 class="skills-heading">My Certificate</h2>
+        <div class="grid">
+          <!-- Certification Card 1 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>Modern JavaScript (ES6+)</span>
+                  <span>React Framework</span>
+                  <span>Node.js Backend</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnVsbCUyMHN0YWNrJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Full-Stack Developement</h3>
+              <p class="project-description">Internshala - Ongoing March 2025</p>
+              <a href="#" class="certificate-btn">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- Certification Card 2 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>User Research Methods</span>
+                  <span>Wireframing & Prototyping</span>
+                  <span>User Testing</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFVzZXIlMjBFeHBlcmllbmNlJTIwZGVzaWdufGVufDB8fDB8fHww"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">User Experience Design</h3>
+              <p class="project-description">Coursera - Completed May 2023</p>
+              <a href="#" class="certificate-btn">View Certificate</a>
+            </div>
+          </div>
+
+          <!-- Certification Card 3 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>Python Programming</span>
+                  <span>Data Visualization</span>
+                  <span>Statistical Analysis</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGF0YSUyMGFuYWxheXNpc3xlbnwwfHwwfHx8MA%3D%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Data Analysis with Python</h3>
+              <p class="project-description">DataCamp - Completed Aug 2023</p>
+              <a href="#" class="certificate-btn">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="line" />
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="skills-heading">My Projects</h2>
+
+        <div class="grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlJTIwcGxhdGZvcm18ZW58MHx8MHx8fDA%3D"
+                  alt="E-Commerce image"
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-description">
+                A full-featured online store with product listings, cart
+                functionality, and secure checkout process.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>React</span>
+                  <span>Firebase</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1683977922495-3ab3ce7ba4e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Social Media Dashboard</h3>
+              <p class="project-description">
+                Admin dashboard with data visualization, user management, and
+                content moderation tools.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>Vue.js</span>
+                  <span>Express</span>
+                  <span>PostgreSQL</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1720551256879-92e5b13285be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGFzayUyMG1hbmFnZW1lbnQlMjBhcHB8ZW58MHx8MHx8fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">
+                Collaborative project management tool with real-time updates,
+                tasks, and team communication.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>React Native</span>
+                  <span>Redux</span>
+                  <span>Firebase</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1712762000039-10cd30578841?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zml0bmVzcyUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Fitness Tracking App</h3>
+              <p class="project-description">
+                Mobile application for tracking workouts, nutrition, and
+                progress with data visualization.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>Angular</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVjaXBlJTIwc2hhcmluZyUyMHBsYXRmb3JtfGVufDB8fDB8fHww"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">Recipe Sharing Platform</h3>
+              <p class="project-description">
+                Community-based platform for sharing recipes, with search,
+                filtering, and user interactions.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 6 -->
+          <div class="project-card">
+            <div class="card-header">
+              <div class="tech-stack">
+                <h4>Tech Stack</h4>
+                <div class="tech-list">
+                  <span>JavaScript</span>
+                  <span>Three.js</span>
+                  <span>WebGL</span>
+                </div>
+              </div>
+              <div class="icon-container">
+                <img
+                  src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title">3D Portfolio Experience</h3>
+              <p class="project-description">
+                Interactive 3D web experience showcasing creative work with
+                WebGL animations and effects.
+              </p>
+              <div class="links">
+                <a href="#" class="demo-link">View Demo</a>
+                <a href="#" class="code-link">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="line" />
+
+    <!-- contact form section -->
+    <section id="contact">
+      <h1 class="skills-heading">Get In<span class="name"> Touch </span></h1>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="icon email-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="info-text">
+              <h4>Email :</h4>
+              <p>08amisha2003@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon phone-icon">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="info-text">
+              <h4>Phone :</h4>
+              <p>+91 8570002173</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon location-icon">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="info-text">
+              <h4>Location :</h4>
+              <p>Rohtak, Haryana</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-container">
+          <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your Name" required />
+            <label>Email</label>
+            <input type="email" placeholder="Your Email" required />
+            <label>Message</label>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="form-btn">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-about">
+          <h3>Amisha Sharma</h3>
+          <p>
+            Full-stack web developer with a passion for creating beautiful,
+            functional, and user-centered digital experiences.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        <!-- quick links -->
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificate">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-contact">
+          <h3>Contact Me</h3>
+          <p><i class="fas fa-envelope"></i> 08amisha2003@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +91 8570002173</p>
+          <p><i class="fas fa-map-marker-alt"></i> Rohtak, Haryana</p>
+          <div class="footer-buttons">
+            <a href="mailto:08amisha2003@gmail.com" class="btn email-btn"
+              ><i class="fas fa-envelope"></i> Email</a
+            >
+            <a href="tel:+918570002173" class="btn call-btn"
+              ><i class="fas fa-phone"></i> Call</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 Amisha Sharma. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- javascript -->
+    <script>
+      // dark light mode
+      const toggleButton = document.getElementById("toggle-mode");
+      let isLightMode = true;
+
+      toggleButton.addEventListener("click", () => {
+        isLightMode = !isLightMode;
+        document.body.style.backgroundColor = isLightMode
+          ? ""
+          : "#d7aef3";
+        document.body.style.color = isLightMode ? "#000" : "#fff";
+        toggleButton.textContent = isLightMode ? "☽" : "☀";
+      });
+
+      //   navbar
+      const mobileMenu = document.getElementById("mobile-menu");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileMenu.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
