@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  transition: 0.5s linear;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +23,7 @@ body {
 /* header */
 header {
   background-color: #d7aef3;
-  padding: 20px 40px;
+  padding: 8px 40px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -54,7 +56,9 @@ nav .nav-links li a {
 }
 
 nav .nav-links li a:hover {
-  color: #d7aef3;
+  color: #000000;
+  text-decoration: underline;
+
 }
 /* for small screen toggle menu bar */
 .menu-toggle {
